@@ -40,7 +40,7 @@ body {
 }
 li:not(:last-child) {
   content: ();
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
 .main {
