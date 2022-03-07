@@ -27,6 +27,11 @@ body {
   list-style-type: none;
   padding: 46px 0 40px 0;
 }
+.site-list li a:hover {
+  border-bottom: 4px solid rgb(85, 81, 81);
+  transition: width 20s;
+  color: black;
+}
 .site-list a {
   text-decoration: none;
   color: rgb(150, 148, 148);
@@ -35,7 +40,7 @@ body {
 }
 li:not(:last-child) {
   content: ();
-  margin-right: 120px;
+  padding-left: 100px;
 }
 
 .main {
@@ -82,7 +87,7 @@ li:not(:last-child) {
   opacity: 0.3;
 }
 .container2 {
-  margin: 0 100px;
+  margin: 0 220px;
 }
 .box {
   display: flex;
@@ -358,8 +363,9 @@ li:not(:last-child) {
     margin-bottom: 50px;
     font-weight: bolder;
   }
+
   .box p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 35px;
     color: #6c7272;
   }
